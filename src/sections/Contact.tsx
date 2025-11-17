@@ -25,7 +25,7 @@ export default function Contact() {
           </h2>
 
           <p className="mt-5 text-lg text-neutral-700 leading-relaxed max-w-md">
-            Whether you're starting a new product, redesigning, or automating your workflow —
+            Whether you are starting a new product, redesigning, or automating your workflow —
             we’ll help you move fast, with clarity and excellence.
           </p>
 
