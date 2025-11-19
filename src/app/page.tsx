@@ -5,7 +5,7 @@ import Work from "@/sections/Work";
 import About from "@/sections/About";
 import Footer from "@/sections/Footer";
 import Contact from "@/sections/Contact";
-import Insights from "@/sections/HowWeWork";
+import HowWeWork from "@/sections/HowWeWork";
 
 
 
@@ -17,7 +17,7 @@ export default function Home() {
       <Services />
       <Work />
       <About />
-      <Insights />
+      <HowWeWork />
       <Contact />
       <Footer />
 

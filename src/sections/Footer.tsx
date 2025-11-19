@@ -14,11 +14,12 @@ export default function Footer() {
           {/* Brand */}
           <div className="col-span-1 md:col-span-2">
             <Link
-              href="/"
+              href="#hero"
               className="text-3xl font-semibold tracking-tight text-white"
             >
               Digital Ink
             </Link>
+
             <p className="mt-4 text-sm text-white/60 leading-relaxed max-w-sm">
               High-clarity design & engineering for product teams across Africa.  
               We build systems that scale — calm, fast, and effortless.
@@ -37,10 +38,11 @@ export default function Footer() {
           <FooterCol
             title="Company"
             links={[
+              { label: "Home", href: "#hero" },        // ⭐ Added Hero redirect
               { label: "About", href: "#about" },
               { label: "Work", href: "#work" },
               { label: "Services", href: "#services" },
-              { label: "Insights", href: "/blog" },
+              { label: "How We Work", href: "#process" }, // ⭐ Updated
             ]}
           />
 
@@ -81,6 +83,7 @@ function FooterCol({
       <h4 className="text-sm font-semibold uppercase tracking-widest text-white/80">
         {title}
       </h4>
+
       <ul className="mt-4 space-y-3">
         {links.map((l, i) => (
           <li key={i}>
